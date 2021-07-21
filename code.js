@@ -1,8 +1,10 @@
 
-// Calls the root div
-const outputDiv = document.getElementById("root");
-const customerCard = document.createElement("div")
-customerCard.classList.add("customer")
+
+
+const root = document.getElementById("root");
+
+
+
 
     for (i = 0; i < customers.length; i++){
    
@@ -10,8 +12,8 @@ customerCard.classList.add("customer")
       firstName.innerText = customers[i].name.first;
       const lastName = customers[i].name.last;
       firstName.innerText += " " + lastName;
-      customerCard.appendChild(firstName);
-      console.log(firstName.innerText)
+      root.appendChild(firstName);
+      console.log(firstName);
     
       
       const email = document.createElement("h3");
