@@ -39,9 +39,15 @@ customerCard.classList.add("customer")
 
        const birthday = document.createElement("h3");
        birthday.classList.add("birtday");
-       birthday.innerText = customers[i].dob.date
+       birthday.innerText = customers[i].dob.date;
        customerCard.appendChild(birthday);
        console.log(birthday.innerText);
+
+       const employed = document.createElement("h3");
+       employed.classList.add("birthday");
+       employed.innerText = customers[i].registered.date;
+       customerCard.appendChild(employed);
+       console.log(employed.innerText);
 
 
 
