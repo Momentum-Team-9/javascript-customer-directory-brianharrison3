@@ -1,3 +1,13 @@
-.root{
-    color: blue;
+*{
+    flex-wrap: ;
+}
+
+h3{
+    
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+   
 }
